@@ -11,6 +11,7 @@ I used NGINX web server to display the CAPTCHA image (make sure to run the web s
 Once you have created the database file, navigate to "making_table.py" (if it's the first time running this project on your system) to create the required tables using the execute functions.
 
 In the "main.py" file, make sure to set the `db_url` variable correctly.
+you need to make a .env file for `db_url`
 
 ## NGINX configuration:
 After downloading NGINX, go to "nginx-1.22.1\conf\nginx.conf" and in the server section, specify the root directory folder for the project's static files.
